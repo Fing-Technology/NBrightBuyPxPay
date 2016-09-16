@@ -88,6 +88,9 @@
   <ItemGroup>
     <Folder Include="Themes\config\resx\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Installation\NBrightPxPay.dnn" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>copy "$(TargetFileName)" "..\..\..\..\..\bin\$(TargetFileName)"
