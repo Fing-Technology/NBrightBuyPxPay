@@ -1,0 +1,33 @@
+[<tag id="resourcepath" type="meta" value="/DesktopModules/NBright/NBrightPxPay/App_LocalResources" />]
+<style>
+/* Default buttons */
+.paybutton{background:#1AA8E3;color:#FFFFFF;}
+.paybutton:hover{background:#23BAF5;color:#FFFFFF;}
+.paybutton{display:inline-block;font-weight:bold;line-height:35px;padding:0 10px;margin:10px 10px 10px 0;text-align:center;width:45%;border:medium none;text-decoration:none;box-sizing:border-box;cursor:pointer;}
+.paybutton:hover{text-decoration:none;}
+</style>
+
+<div id="loader" class="processing" style="display: none"><i class="fa fa-cog fa-spin fa-4x"></i></div>
+
+<div>
+
+    <img src="/DesktopModules/NBright/NBrightPxPay/Themes/config/img/pxpay.png"/>
+
+    <div class="defaultmessage">[<tag type="valueof" resourcekey="Payment.message"/>]
+    </div>
+
+    <div class="clearfix"></div>
+
+    <!-- commandname must be "pay" and the commandargument must be the provider control key -->
+    [<tag id='NBrightPxPaybutton' type='button' cssclass="paybutton" resourcekey="Payment.payment" commandname='pay' commandargument='NBrightPxPay'/>]
+
+</div>
+
+<script>
+    
+    $('.paybutton').click(function () {
+        $('.processing').show();
+    });
+
+
+</script>

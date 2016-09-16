@@ -1,0 +1,53 @@
+﻿<genxml>
+  <files />
+  <hidden>
+    <index>99</index>
+  </hidden>
+  <textbox>
+    <ctrl>
+      <![CDATA[nbrightpxpay]]>
+    </ctrl>
+    <name>
+      <![CDATA[Payment Express Gateway]]>
+    </name>
+    <icon>
+      <![CDATA[]]>
+    </icon>
+    <group>
+      <![CDATA[Admin]]>
+    </group>
+    <path>
+      <![CDATA[/DesktopModules/NBright/NBrightPxPay/Payment.ascx]]>
+    </path>
+    <help>
+      <![CDATA[]]>
+    </help>
+    <roles>
+      <![CDATA[Administrators]]>
+    </roles>
+    <description>
+      <![CDATA[]]>
+    </description>
+    <assembly>
+      <![CDATA[NBrightPxPay]]>
+    </assembly>
+    <namespaceclass>
+      <![CDATA[Nevoweb.DNN.NBrightStore.NBrightPxPayPaymentProvider]]>
+    </namespaceclass>
+  </textbox>
+  <checkbox>
+    <hidden>
+      <![CDATA[False]]>
+    </hidden>
+    <active>
+      <![CDATA[True]]>
+    </active>
+  </checkbox>
+  <dropdownlist>
+    <providertype selectedtext="Payments">
+      <![CDATA[07]]>
+    </providertype>
+  </dropdownlist>
+  <checkboxlist />
+  <radiobuttonlist />
+</genxml>
